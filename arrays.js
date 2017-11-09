@@ -29,7 +29,12 @@ function removeElementFromBeginningOfArray(array) {
   return oof;
 }
 
-function destructivelyRemoveElementFromEndOfArray() {
+function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop();
   return array;
+}
+
+function removeElementFromEndOfArray(array) {
+  var oof = array.slice(array.length - 1);
+  return oof;
 }
